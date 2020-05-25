@@ -1,0 +1,10 @@
+apiVersion: app.juntao.xyz/v1alpha1
+kind: AppService
+metadata:
+  name: example-appservice
+spec:
+  # Add fields here
+  image: "nginx"
+  size: 3
+  port: 80
+  domain: "nginx.juntao.xyz"
